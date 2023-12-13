@@ -1,0 +1,59 @@
+.sidebar {
+  background: rgb(250, 250, 252);
+  background: linear-gradient(180deg, rgba(250, 250, 252, 1) 40%, rgba(0, 212, 255, 1) 100%);
+  height: 100vh;
+  z-index: 1;
+  width: 350px;
+  -webkit-box-shadow: 56px 15px 161px 0px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 56px 15px 161px 0px rgba(0, 0, 0, 0.15);
+  box-shadow: 56px 15px 161px 0px rgba(0, 0, 0, 0.15);
+
+  .title {
+    padding: 17px 21px;
+    font-size: 21px;
+    background: white;
+    text-align: center;
+  }
+
+  .menu {
+    padding: 17px 21px;
+    background: transparent;
+    font-size: 20px;
+    text-transform: capitalize;
+    border-bottom: 1px solid #80808069;
+
+
+  }
+
+  .menu:hover {
+    color: rgb(0, 204, 255);
+    -webkit-box-shadow: 1px 3px 134px 11px rgba(0, 0, 0, 0.33);
+    -moz-box-shadow: 1px 3px 134px 11px rgba(0, 0, 0, 0.33);
+    box-shadow: 1px 3px 134px 11px rgba(0, 0, 0, 0.33);
+  }
+
+  .menu_icon {
+    margin-right: 10px;
+  }
+}
+
+.nav_notifi {
+  width: auto;
+  /* background: aqua; */
+  padding: 12px 11px;
+  font-size: 29px;
+  border: 1px solid gray;
+}
+
+.App {
+  display: flex;
+}
+
+.card-number {
+  font-size: 32px;
+}
+
+.background {
+  background: linear-gradient(180deg, rgba(250, 250, 252, 1) 40%, rgba(0, 212, 255, 1) 132%);
+
+}
